@@ -20,7 +20,7 @@ function getUserNumberInput() {
 
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
   const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
-  outputResult(currentResult, calcDescription); // from vendor file
+  outputResult(currentResult, calcDescription); 
 }
 
 function add() {
